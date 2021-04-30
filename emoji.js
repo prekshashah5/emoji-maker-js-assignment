@@ -42,8 +42,6 @@ $('document').ready(function() {
         eyes();
     })
 
-    // EYES ON CLICK HANDLERS
-
     $('#eye-normal').click(function() {
         $('#eyes').attr('src', './assets/eyes/normal.png');
         mouth();
@@ -68,8 +66,7 @@ $('document').ready(function() {
         $('#eyes').attr('src', './assets/eyes/winking.png')
         mouth();
     })
-
-    // MOUTH ON CLICK HANDLERS
+    
     $('#mouth-open').click(function() {
         $('#mouth').attr('src', './assets/mouth/open.png');
     })
